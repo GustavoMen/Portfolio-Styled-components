@@ -43,18 +43,35 @@ export const Project = styled.div`
 export const ProjectImage = styled.img`
   width: 100%;
   height: 100%;
-  transition: all 0.5s ease;
+  transition: all 1s;
+`;
+
+export const ImageContainer = styled.div`
+  width: 100%;
+  height: 100%;
 
   &:hover {
+    z-index: 2;
     display: none;
     pointer-events: none;
   }
 `;
 
 export const ProjectHover = styled.div`
-  transition: 0.5 ease;
   width: 100%;
   height: 100%;
+  z-index: 9999;
+`;
+
+export const ProjectBtn = styled.button`
+  color: #fff;
+  border-radius: 4px;
+  background: #0467fb;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  font-size: 16px;
 `;
 
 export const ProjectImgOne = styled(MdOutlinePets)`
@@ -95,9 +112,4 @@ export const ProjectDescription = styled.p`
   margin-top: 10px;
   text-align: center;
   color: #fff;
-`;
-
-export const ProjectBtn = styled.button`
-  margin-top: 30px;
-  height: 40px;
 `;

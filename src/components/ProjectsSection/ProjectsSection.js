@@ -1,11 +1,13 @@
 import React from "react";
 import { IconContext } from "react-icons/lib";
+import { Link } from "react-router-dom";
 import { Button } from "../../globalStyles";
 import {
   TabsContainer,
   TitleTabs,
   ProjectTabs,
   Project,
+  ImageContainer,
   ProjectImage,
   ProjectHover,
   ProjectImgOne,
@@ -16,6 +18,7 @@ import {
   ProjectName,
   ProjectTecnologies,
   ProjectDescription,
+  ProjectBtn,
 } from "./ProjectsSection.elements";
 
 const ProjectsSection = () => {
@@ -25,74 +28,142 @@ const ProjectsSection = () => {
       <IconContext.Provider value={{ color: "#57bdd1", size: 70 }}>
         <TabsContainer>
           <ProjectTabs>
-            <Project>
-              <ProjectHover>
-                <ProjectImage
-                  src={require("../../Images/JogodaMemoriaImage.png")}
-                ></ProjectImage>
-                <ProjectImgOne></ProjectImgOne>
-                <ProjectName>Get a Pet</ProjectName>
-                <ProjectDescription>
-                  Um Site que simula uma adoção completa de Pet totalmente
-                  Online.
-                </ProjectDescription>
-                <ProjectTecnologies>
-                  HTML, CSS, Javascript, React, Node.js, MongoDB
-                </ProjectTecnologies>
-                <Button Big>Mais Detalhes</Button>
-              </ProjectHover>
-            </Project>
+            <a
+              target={"_blank"}
+              href="https://github.com/GustavoMen/Get-a-pet-FRONTEND-"
+              rel="noreferrer"
+            >
+              <Project>
+                <ProjectHover>
+                  <ImageContainer>
+                    <ProjectImage
+                      src={require("../../Images/GetaPetImage.png")}
+                    ></ProjectImage>
+                  </ImageContainer>
+                  <ProjectImgOne></ProjectImgOne>
+                  <ProjectName>Get a Pet</ProjectName>
+                  <ProjectDescription>
+                    Um Site que simula uma adoção completa de Pet totalmente
+                    Online.
+                  </ProjectDescription>
+                  <ProjectTecnologies>
+                    HTML, CSS, Javascript, React, Node.js, MongoDB
+                  </ProjectTecnologies>
+                  <ProjectBtn to="https://github.com/GustavoMen/Get-a-pet-FRONTEND-">
+                    Saiba Mais
+                  </ProjectBtn>
+                </ProjectHover>
+              </Project>
+            </a>
 
-            <Project>
-              <ProjectImgTwo></ProjectImgTwo>
-              <ProjectName>Thoughts</ProjectName>
-              <ProjectDescription>
-                Um Site para fazer sua check-list facil e rapido.
-              </ProjectDescription>
-              <ProjectTecnologies>
-                HTML, CSS, Javascript, Node.js, MySQL
-              </ProjectTecnologies>
-              <Button Big>Mais Detalhes</Button>
-            </Project>
+            <a
+              target={"_blank"}
+              href="https://github.com/GustavoMen/Get-a-pet-FRONTEND-"
+              rel="noreferrer"
+            >
+              <Project>
+                <ProjectHover>
+                  <ImageContainer>
+                    <ProjectImage
+                      src={require("../../Images/ToughtsImage.png")}
+                    ></ProjectImage>
+                  </ImageContainer>
+                  <ProjectImgTwo></ProjectImgTwo>
+                  <ProjectName>Thoughts</ProjectName>
+                  <ProjectDescription>
+                    Um site para anotar sua Task-List para não esquece-la.
+                  </ProjectDescription>
+                  <ProjectTecnologies>
+                    HTML, CSS, Javascript, Node.js, MySQL
+                  </ProjectTecnologies>
+                  <ProjectBtn to="https://github.com/GustavoMen/Get-a-pet-FRONTEND-">
+                    Saiba Mais
+                  </ProjectBtn>
+                </ProjectHover>
+              </Project>
+            </a>
 
-            <Project>
-              <ProjectImgThree></ProjectImgThree>
-              <ProjectName>Lading Page</ProjectName>
-              <ProjectDescription>
-                Uma Ladding Page simples, um dos meus primeiros projetos.
-              </ProjectDescription>
-              <ProjectTecnologies>
-                HTML, <br></br> CSS
-              </ProjectTecnologies>
-              <Button>Mais Detalhes</Button>
-              <Button>Mais Detalhes</Button>
-            </Project>
+            <a
+              target={"_blank"}
+              href="https://github.com/GustavoMen/Get-a-pet-FRONTEND-"
+              rel="noreferrer"
+            >
+              <Project>
+                <ProjectHover>
+                  <ImageContainer>
+                    <ProjectImage
+                      src={require("../../Images/apiVendasImage.jpg")}
+                    ></ProjectImage>
+                  </ImageContainer>
+                  <ProjectImgFour></ProjectImgFour>
+                  <ProjectName>API-Vendas</ProjectName>
+                  <ProjectDescription>
+                    Uma API desenvolvida com typescript, possui um sistema de
+                    e-ccomerce completo.
+                  </ProjectDescription>
+                  <ProjectTecnologies>
+                    HTML, CSS, Javascript, React, Node.js, MongoDB
+                  </ProjectTecnologies>
+                  <ProjectBtn to="https://github.com/GustavoMen/Get-a-pet-FRONTEND-">
+                    Saiba Mais
+                  </ProjectBtn>
+                </ProjectHover>
+              </Project>
+            </a>
 
-            <Project>
-              <ProjectImgFour></ProjectImgFour>
-              <ProjectName>API para vendas</ProjectName>
-              <ProjectDescription>
-                Uma API que simula um e-commerce completo, de ponta a ponta.
-              </ProjectDescription>
-              <ProjectTecnologies>
-                HTML, CSS, Typescript, Postgres, React
-              </ProjectTecnologies>
-              <Button Big>Mais Detalhes</Button>
-            </Project>
+            <a
+              target={"_blank"}
+              href="https://github.com/GustavoMen/Get-a-pet-FRONTEND-"
+              rel="noreferrer"
+            >
+              <Project>
+                <ProjectHover>
+                  <ImageContainer>
+                    <ProjectImage
+                      src={require("../../Images/CapturePageImage.png")}
+                    ></ProjectImage>
+                  </ImageContainer>
+                  <ProjectImgThree></ProjectImgThree>
+                  <ProjectName>Ladding Page</ProjectName>
+                  <ProjectDescription>
+                    Um Site que simula uma adoção completa de Pet totalmente
+                    Online.
+                  </ProjectDescription>
+                  <ProjectTecnologies>
+                    HTML, CSS, Javascript, React, Node.js, MongoDB
+                  </ProjectTecnologies>
+                  <ProjectBtn to="https://github.com/GustavoMen/Get-a-pet-FRONTEND-">
+                    Saiba Mais
+                  </ProjectBtn>
+                </ProjectHover>
+              </Project>
+            </a>
 
-            <Project>
-              <ProjectImgFive></ProjectImgFive>
-              <ProjectName>Jogo da Memoria</ProjectName>
-              <ProjectDescription>
-                Um jogo da Memoria com tematica de animais, contendo sound
-                effect.
-              </ProjectDescription>
-              <ProjectTecnologies>
-                HTML, CSS, <br></br>Javascript
-              </ProjectTecnologies>
-              <Button Big>Mais Detalhes</Button>
-              <Button Big>Mais Detalhes</Button>
-            </Project>
+            <a
+              href="https://github.com/GustavoMen/Jogo-da-Memoria"
+              target={"_blank"}
+              rel="noreferrer"
+            >
+              <Project>
+                <ProjectHover>
+                  <ImageContainer>
+                    <ProjectImage
+                      src={require("../../Images/JogodaMemoriaImage.png")}
+                    ></ProjectImage>
+                  </ImageContainer>
+                  <ProjectImgFive></ProjectImgFive>
+                  <ProjectName>Jogo da Memoria</ProjectName>
+                  <ProjectDescription>
+                    Um Site que simula uma adoção completa de Pet totalmente
+                    Online.
+                  </ProjectDescription>
+                  <ProjectTecnologies>
+                    HTML, CSS, Javascript, React, Node.js, MongoDB
+                  </ProjectTecnologies>
+                  <ProjectBtn>Saiba Mais</ProjectBtn>
+                </ProjectHover>
+              </Project>
+            </a>
           </ProjectTabs>
         </TabsContainer>
       </IconContext.Provider>
