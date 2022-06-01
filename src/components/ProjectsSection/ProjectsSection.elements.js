@@ -38,6 +38,10 @@ export const Project = styled.div`
   vertical-align: middle;
   margin: 10px;
   border: 2px solid #57bdd1;
+
+  @media screen and (max-width: 1000px) {
+    width: 80%;
+  }
 `;
 
 export const ProjectImage = styled.img`
@@ -51,7 +55,6 @@ export const ImageContainer = styled.div`
   height: 100%;
 
   &:hover {
-    z-index: 2;
     display: none;
     pointer-events: none;
   }
@@ -61,6 +64,11 @@ export const ProjectHover = styled.div`
   width: 100%;
   height: 100%;
   z-index: 9999;
+
+  &:hover ${ImageContainer} {
+    display: none;
+    pointer-events: none;
+  }
 `;
 
 export const ProjectBtn = styled.button`

@@ -40,6 +40,7 @@ const ProjectsSection = () => {
                       src={require("../../Images/GetaPetImage.png")}
                     ></ProjectImage>
                   </ImageContainer>
+
                   <ProjectImgOne></ProjectImgOne>
                   <ProjectName>Get a Pet</ProjectName>
                   <ProjectDescription>
@@ -151,6 +152,7 @@ const ProjectsSection = () => {
                       src={require("../../Images/JogodaMemoriaImage.png")}
                     ></ProjectImage>
                   </ImageContainer>
+
                   <ProjectImgFive></ProjectImgFive>
                   <ProjectName>Jogo da Memoria</ProjectName>
                   <ProjectDescription>
