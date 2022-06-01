@@ -3,7 +3,7 @@ import { DiMagento } from "react-icons/di";
 import { Link } from "react-router-dom";
 import { Container } from "../../globalStyles";
 
-export const Nav = styled.nav`
+export const Nav = styled.header`
   background: #0e0b16;
   height: 80px;
   display: flex;

@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const InfoSec = styled.div`
+export const InfoSec = styled.section`
   color: #fff;
   padding: 100px 0;
   background: ${({ lightBg }) => (lightBg ? "#fff" : "#0E0B16")};
@@ -41,7 +41,7 @@ export const TextWrapper = styled.div`
 `;
 
 export const TopLine = styled.div`
-  color: ${({ lightTopLine }) => (lightTopLine ? "#e9b3c1" : "#4b59f7")};
+  color: #fff;
   font-size: 18px;
   line-height: 16px;
   letter-spacing: 1.4px;

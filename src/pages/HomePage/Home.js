@@ -1,6 +1,6 @@
 import React from "react";
 import { homeObjOne, homeObjTwo } from "./Data";
-import { InfoSection } from "../../components";
+import { InfoSection, ProjectsSection } from "../../components";
 import { ServicesSection } from "../../components";
 
 const Home = () => {
@@ -9,6 +9,7 @@ const Home = () => {
       <InfoSection {...homeObjOne} />
       <InfoSection {...homeObjTwo} />
       <ServicesSection></ServicesSection>
+      <ProjectsSection></ProjectsSection>
     </>
   );
 };

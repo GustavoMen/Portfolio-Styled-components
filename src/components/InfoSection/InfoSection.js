@@ -38,7 +38,7 @@ const InfoSection = ({
           <InfoRow imgStart={imgStart}>
             <InfoColumn>
               <TextWrapper>
-                <TopLine lightTopLine={lightTopLine}>{topLine}</TopLine>
+                <TopLine>{topLine}</TopLine>
                 <Heading lightText={lightText}>{headline}</Heading>
                 <Bold fristSection={fristSection}>FULLSTACK DEVELOPER</Bold>
                 <Bold fristSection={fristSection}>FREELANCER DEVELOPER</Bold>

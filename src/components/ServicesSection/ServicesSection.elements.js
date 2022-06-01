@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { BsCodeSlash } from "react-icons/bs";
 import { BsFolder2Open } from "react-icons/bs";
 import { BsPhone } from "react-icons/bs";
 import { BsShop } from "react-icons/bs";
@@ -11,7 +10,7 @@ export const Label = styled.h1`
   color: #fff;
 `;
 
-export const ServicesContainer = styled.div`
+export const ServicesContainer = styled.section`
   background: #0e0b16;
   display: flex;
   flex-direction: row;
