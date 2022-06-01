@@ -52,7 +52,7 @@ export const ProjectImage = styled.img`
 `;
 
 export const ProjectHover = styled.div`
-transition: 0.5 ease
+  transition: 0.5 ease;
   width: 100%;
   height: 100%;
 `;

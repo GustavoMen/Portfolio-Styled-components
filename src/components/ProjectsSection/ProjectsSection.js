@@ -28,7 +28,7 @@ const ProjectsSection = () => {
             <Project>
               <ProjectHover>
                 <ProjectImage
-                  src={require("../../Images/JogodaMemoria.png")}
+                  src={require("../../Images/JogodaMemoriaImage.png")}
                 ></ProjectImage>
                 <ProjectImgOne></ProjectImgOne>
                 <ProjectName>Get a Pet</ProjectName>
