@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const InfoSec = styled.div`
   color: #fff;
   padding: 100px 0;
-  background: ${({ lightBg }) => (lightBg ? "#fff" : "#101522")};
+  background: ${({ lightBg }) => (lightBg ? "#fff" : "#0E0B16")};
 `;
 
 export const InfoRow = styled.div`

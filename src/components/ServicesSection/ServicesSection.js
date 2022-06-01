@@ -1,38 +1,84 @@
 import React from "react";
+import { IconContext } from "react-icons/lib";
 import { Container } from "../../globalStyles";
 
 import {
   ServicesContainer,
   ServicesProvider,
-  ServiceImg,
+  ServiceImgOne,
+  ServiceImgTwo,
+  ServiceImgThree,
+  ServiceImgFour,
+  ServiceImgFive,
+  ServiceImgSix,
   ServiceLabel,
   ServiceDescription,
+  Label,
 } from "./ServicesSection.elements";
+
 const ServicesSection = () => {
   return (
     <>
-      <ServicesContainer>
-        <Container>
-          <ServicesProvider>
-            <ServiceImg src={require("../../Images/Service1.png")}></ServiceImg>
-            <ServiceLabel>UI Design</ServiceLabel>
-            <ServiceDescription>
-              Um site atrativo, com foco em experiencia de usuario, interfaces
-              claras e objetivas com intuito de facilitar para o Usuario.
-            </ServiceDescription>
-          </ServicesProvider>
+      <IconContext.Provider value={{ color: "#57bdd1", size: 70 }}>
+        <ServicesContainer>
+          <Container>
+            <Label>Serviços</Label>
+            <ServicesProvider>
+              <ServiceImgOne></ServiceImgOne>
+              <ServiceLabel>Criação de Sites</ServiceLabel>
+              <ServiceDescription>
+                Desenvolvedor de sites, especialista em HTML, CSS, Javascript,
+                MongoDB, MySQL.
+              </ServiceDescription>
+            </ServicesProvider>
 
-          <ServicesProvider>
-            <ServiceImg src={require("../../Images/Service2.png")}></ServiceImg>
-            <ServiceLabel>SEO</ServiceLabel>
-            <ServiceDescription>
-              Com o mundo cada vez mais tecnologico você não pode ficar fora do
-              google certo? Usando as Tags certas seu site pode ficar no topo da
-              pagina do Google, Confie em mim isso muda tudo.
-            </ServiceDescription>
-          </ServicesProvider>
-        </Container>
-      </ServicesContainer>
+            <ServicesProvider>
+              <ServiceImgTwo></ServiceImgTwo>
+              <ServiceLabel>Desenvolvedor Front-End</ServiceLabel>
+              <ServiceDescription>
+                Desenvolvedor de sites, especialista em HTML, CSS, Javascript,
+                MongoDB, MySQL.
+              </ServiceDescription>
+            </ServicesProvider>
+
+            <ServicesProvider>
+              <ServiceImgThree></ServiceImgThree>
+              <ServiceLabel>Loja virtual / Ecommerce</ServiceLabel>
+              <ServiceDescription>
+                Desenvolvedor de sites, especialista em HTML, CSS, Javascript,
+                MongoDB, MySQL.
+              </ServiceDescription>
+            </ServicesProvider>
+
+            <ServicesProvider>
+              <ServiceImgFour></ServiceImgFour>
+              <ServiceLabel>SEO</ServiceLabel>
+              <ServiceDescription>
+                Desenvolvedor de sites, especialista em HTML, CSS, Javascript,
+                MongoDB, MySQL.
+              </ServiceDescription>
+            </ServicesProvider>
+
+            <ServicesProvider>
+              <ServiceImgFive></ServiceImgFive>
+              <ServiceLabel>Desenvolvedor Back-End</ServiceLabel>
+              <ServiceDescription>
+                Desenvolvedor de sites, especialista em HTML, CSS, Javascript,
+                MongoDB, MySQL.
+              </ServiceDescription>
+            </ServicesProvider>
+
+            <ServicesProvider>
+              <ServiceImgSix></ServiceImgSix>
+              <ServiceLabel>WordPress / Blog</ServiceLabel>
+              <ServiceDescription>
+                Desenvolvedor de sites, especialista em HTML, CSS, Javascript,
+                MongoDB, MySQL.
+              </ServiceDescription>
+            </ServicesProvider>
+          </Container>
+        </ServicesContainer>
+      </IconContext.Provider>
     </>
   );
 };
