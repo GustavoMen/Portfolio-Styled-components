@@ -6,6 +6,8 @@ import {
   TitleTabs,
   ProjectTabs,
   Project,
+  ProjectImage,
+  ProjectHover,
   ProjectImgOne,
   ProjectImgTwo,
   ProjectImgThree,
@@ -24,15 +26,21 @@ const ProjectsSection = () => {
         <TabsContainer>
           <ProjectTabs>
             <Project>
-              <ProjectImgOne></ProjectImgOne>
-              <ProjectName>Get a Pet</ProjectName>
-              <ProjectDescription>
-                Um Site que simula uma adoção completa de Pet totalmente Online.
-              </ProjectDescription>
-              <ProjectTecnologies>
-                HTML, CSS, Javascript, React, Node.js, MongoDB
-              </ProjectTecnologies>
-              <Button Big>Mais Detalhes</Button>
+              <ProjectHover>
+                <ProjectImage
+                  src={require("../../Images/JogodaMemoria.png")}
+                ></ProjectImage>
+                <ProjectImgOne></ProjectImgOne>
+                <ProjectName>Get a Pet</ProjectName>
+                <ProjectDescription>
+                  Um Site que simula uma adoção completa de Pet totalmente
+                  Online.
+                </ProjectDescription>
+                <ProjectTecnologies>
+                  HTML, CSS, Javascript, React, Node.js, MongoDB
+                </ProjectTecnologies>
+                <Button Big>Mais Detalhes</Button>
+              </ProjectHover>
             </Project>
 
             <Project>

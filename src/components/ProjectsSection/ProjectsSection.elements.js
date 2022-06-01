@@ -21,23 +21,6 @@ export const TabsContainer = styled.div`
   vertical-align: middle;
 `;
 
-export const BlocTabs = styled.div`
-  margin-top: 70px;
-  width: 100%;
-
-  button {
-    border-radius: 10px;
-    margin: 10px;
-    cursor: pointer;
-    width: 35%;
-    height: 50px;
-    border: none;
-    border-bottom: 3px solid #57bdd1;
-    background: #666666;
-    margin-top: 2px;
-  }
-`;
-
 export const ProjectTabs = styled.div`
   margin-top: 20px;
   width: 100%;
@@ -55,6 +38,23 @@ export const Project = styled.div`
   vertical-align: middle;
   margin: 10px;
   border: 2px solid #57bdd1;
+`;
+
+export const ProjectImage = styled.img`
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s ease;
+
+  &:hover {
+    display: none;
+    pointer-events: none;
+  }
+`;
+
+export const ProjectHover = styled.div`
+transition: 0.5 ease
+  width: 100%;
+  height: 100%;
 `;
 
 export const ProjectImgOne = styled(MdOutlinePets)`
