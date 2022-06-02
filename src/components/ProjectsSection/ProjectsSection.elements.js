@@ -39,7 +39,7 @@ export const Project = styled.div`
   margin: 10px;
   border: 2px solid #57bdd1;
 
-  @media screen and (max-width: 1000px) {
+  @media screen and (max-width: 800px) {
     width: 80%;
   }
 `;
@@ -120,4 +120,17 @@ export const ProjectDescription = styled.p`
   margin-top: 10px;
   text-align: center;
   color: #fff;
+`;
+
+export const BtnGithub = styled.a`
+  color: #fff;
+  font-size: 35px;
+  margin-top: 30px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.2s;
+
+  &:hover {
+    color: #0467fb;
+  }
 `;

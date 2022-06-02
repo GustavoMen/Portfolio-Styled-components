@@ -1,7 +1,11 @@
 import React from "react";
 import { homeObjOne, homeObjTwo } from "./Data";
-import { InfoSection, ProjectsSection } from "../../components";
-import { ServicesSection } from "../../components";
+import {
+  InfoSection,
+  ProjectsSection,
+  ServicesSection,
+  SkillsSection,
+} from "../../components";
 
 const Home = () => {
   return (
@@ -10,6 +14,7 @@ const Home = () => {
       <InfoSection {...homeObjTwo} />
       <ServicesSection></ServicesSection>
       <ProjectsSection></ProjectsSection>
+      <SkillsSection></SkillsSection>
     </>
   );
 };
