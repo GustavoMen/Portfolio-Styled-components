@@ -14,6 +14,8 @@ export const homeObjOne = {
   start: "",
   fristImage: true,
   fristSection: true,
+  linkBtn: "#About",
+  targetData: "",
 };
 
 export const homeObjTwo = {
@@ -32,4 +34,6 @@ export const homeObjTwo = {
   start: "",
   fristImage: false,
   fristSection: false,
+  linkBtn: "https://www.linkedin.com/in/gustavomen/",
+  targetData: "_blank",
 };

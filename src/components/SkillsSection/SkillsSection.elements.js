@@ -18,7 +18,7 @@ export const ContainerLogo = styled.div`
   box-sizing: border-box;
   background-color: #000000;
   display: inline-block;
-  width: 27%;
+  width: 25%;
   height: auto;
   margin-top: 1.2em;
   margin-right: 2em;
@@ -28,7 +28,7 @@ export const ContainerLogo = styled.div`
 
 export const LogoImage = styled.img`
   margin-top: 1em;
-  width: 40%;
+  width: 30%;
 `;
 
 export const LogoName = styled.h2`

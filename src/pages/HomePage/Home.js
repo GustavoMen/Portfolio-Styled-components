@@ -5,6 +5,7 @@ import {
   ProjectsSection,
   ServicesSection,
   SkillsSection,
+  ContactSection,
 } from "../../components";
 
 const Home = () => {
@@ -15,6 +16,7 @@ const Home = () => {
       <ServicesSection></ServicesSection>
       <ProjectsSection></ProjectsSection>
       <SkillsSection></SkillsSection>
+      <ContactSection></ContactSection>
     </>
   );
 };

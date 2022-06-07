@@ -56,7 +56,7 @@ const ProjectsSection = () => {
 
             <a
               target={"_blank"}
-              href="https://github.com/GustavoMen/Get-a-pet-FRONTEND-"
+              href="https://github.com/GustavoMen/Toughts"
               rel="noreferrer"
             >
               <Project>
@@ -83,7 +83,7 @@ const ProjectsSection = () => {
 
             <a
               target={"_blank"}
-              href="https://github.com/GustavoMen/Get-a-pet-FRONTEND-"
+              href="https://github.com/GustavoMen/API-VENDAS"
               rel="noreferrer"
             >
               <Project>

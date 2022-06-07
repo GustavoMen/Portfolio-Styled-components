@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+
 import {
   InfoSec,
   InfoRow,
@@ -18,7 +18,6 @@ const InfoSection = ({
   primary,
   lightBg,
   imgStart,
-  lightTopLine,
   lightTextDesc,
   buttonLabel,
   description,
@@ -30,6 +29,8 @@ const InfoSection = ({
   start,
   fristImage,
   fristSection,
+  linkBtn,
+  targetData,
 }) => {
   return (
     <>
@@ -45,11 +46,11 @@ const InfoSection = ({
                 <Bold fristSection={fristSection}>TYPESCRIPT DEVELOPER</Bold>
                 <Bold fristSection={fristSection}>JAVASCRIPT DEVELOPER</Bold>
                 <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
-                <Link to="#Home">
+                <a href={linkBtn} target={targetData} rel="noreferrer">
                   <Button big fontBig primary={primary}>
                     {buttonLabel}
                   </Button>
-                </Link>
+                </a>
               </TextWrapper>
             </InfoColumn>
             <InfoColumn>
