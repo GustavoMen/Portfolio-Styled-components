@@ -70,14 +70,27 @@ const ContactSection = () => {
             <ContactData>Phone: 37 984157085</ContactData>
             <ContactData> Email: contato.gustavomendonca@gmail.com</ContactData>
             <SocialContainer>
-              <SocialMedias>
-                <IconGithub></IconGithub>
-                <SocialName>Veja meu Github</SocialName>
-              </SocialMedias>
-              <SocialMedias>
-                <IconLinkedin></IconLinkedin>
-                <SocialName>Veja meu Linkedin</SocialName>
-              </SocialMedias>
+              <a
+                target={"_blank"}
+                href="github.com/GustavoMen"
+                rel="noreferrer"
+              >
+                <SocialMedias>
+                  <IconGithub></IconGithub>
+                  <SocialName>Veja meu Github</SocialName>
+                </SocialMedias>
+              </a>
+
+              <a
+                target={"_blank"}
+                href="https://www.linkedin.com/in/gustavomen/"
+                rel="noreferrer"
+              >
+                <SocialMedias>
+                  <IconLinkedin></IconLinkedin>
+                  <SocialName>Veja meu Linkedin</SocialName>
+                </SocialMedias>
+              </a>
             </SocialContainer>
           </ContactInfo>
         </ContactContainer>
