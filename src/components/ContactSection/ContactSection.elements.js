@@ -89,6 +89,7 @@ export const SocialName = styled.p`
   font-size: 16px;
   color: #fff;
   padding-top: 15px;
+  padding-bottom: 5px;
 `;
 
 export const ContactForm = styled.div`
