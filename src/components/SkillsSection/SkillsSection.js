@@ -52,7 +52,7 @@ const SkillsSection = () => {
           <LogoImage
             src={require("../../Images/SkillsImages/MySQLlogo.png")}
           ></LogoImage>
-          <LogoName>HTML</LogoName>
+          <LogoName>MySQL</LogoName>
         </ContainerLogo>
       </SkillsContainer>
     </>

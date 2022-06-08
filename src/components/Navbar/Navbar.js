@@ -67,6 +67,10 @@ const Navbar = () => {
               <NavItem>
                 <NavLinks to="/contact">Contato</NavLinks>
               </NavItem>
+
+              <NavItem>
+                <NavLinks to="/resume">Resume</NavLinks>
+              </NavItem>
             </NavMenu>
           </NavbarContainer>
         </Nav>
