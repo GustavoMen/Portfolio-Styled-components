@@ -17,6 +17,8 @@ import {
   IconLinkedin,
   SocialName,
   FormSubmit,
+  LinkSocialOne,
+  LinkSocialTwo,
 } from "./ContactSection.elements";
 import emailjs from "@emailjs/browser";
 
@@ -70,27 +72,27 @@ const ContactSection = () => {
             <ContactData>Phone: 37 984157085</ContactData>
             <ContactData> Email: contato.gustavomendonca@gmail.com</ContactData>
             <SocialContainer>
-              <a
+              <LinkSocialOne
                 target={"_blank"}
-                href="github.com/GustavoMen"
+                href="https://github.com/GustavoMen"
                 rel="noreferrer"
               >
                 <SocialMedias>
                   <IconGithub></IconGithub>
                   <SocialName>Veja meu Github</SocialName>
                 </SocialMedias>
-              </a>
+              </LinkSocialOne>
 
-              <a
+              <LinkSocialTwo
                 target={"_blank"}
-                href="https://www.linkedin.com/in/gustavomen/"
+                href="https://br.linkedin.com/in/gustavomen"
                 rel="noreferrer"
               >
                 <SocialMedias>
                   <IconLinkedin></IconLinkedin>
                   <SocialName>Veja meu Linkedin</SocialName>
                 </SocialMedias>
-              </a>
+              </LinkSocialTwo>
             </SocialContainer>
           </ContactInfo>
         </ContactContainer>

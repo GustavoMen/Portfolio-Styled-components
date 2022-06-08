@@ -68,17 +68,9 @@ export const SocialContainer = styled.div`
 
 export const SocialMedias = styled.div`
   padding-top: 5px;
-  width: 40%;
+  width: 100%;
   height: 150px;
-  border: 3px solid #808080;
-  border-radius: 10px;
   text-align: center;
-  transition: all 1s ease;
-
-  &:hover {
-    transform: scale(1.1);
-    border: 3px solid #57bdd1;
-  }
 
   @media screen and (max-width: 960px) {
     margin-top: 5px;
@@ -104,7 +96,8 @@ export const ContactForm = styled.div`
   width: 50%;
 
   @media screen and (max-width: 960px) {
-    width: 80%;
+    width: 100%;
+    padding-left: 0;
   }
 `;
 
@@ -146,5 +139,41 @@ export const FormSubmit = styled.input`
 
   &:hover {
     transform: scale(1.1);
+  }
+
+  @media screen and (max-width: 960px) {
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+`;
+
+export const LinkSocialOne = styled.a`
+  padding-top: 5px;
+  width: 40%;
+  height: 150px;
+  border: 3px solid #808080;
+  border-radius: 10px;
+  text-align: center;
+  transition: all 1s ease;
+  text-decoration: none;
+
+  &:hover {
+    transform: scale(1.1);
+    border: 3px solid #57bdd1;
+  }
+`;
+export const LinkSocialTwo = styled.a`
+  padding-top: 5px;
+  width: 40%;
+  height: 150px;
+  border: 3px solid #808080;
+  border-radius: 10px;
+  text-align: center;
+  transition: all 1s ease;
+  text-decoration: none;
+
+  &:hover {
+    transform: scale(1.1);
+    border: 3px solid #57bdd1;
   }
 `;
