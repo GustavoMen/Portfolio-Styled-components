@@ -9,6 +9,10 @@ export const ContainerResume = styled.div`
 
 export const ResumeEmbed = styled.img`
   width: 600px;
+
+  @media screen and (max-width: 630px) {
+    width: 100%;
+  }
 `;
 
 export const Teste = styled.p`
