@@ -79,7 +79,7 @@ const ContactSection = () => {
               >
                 <SocialMedias>
                   <IconGithub></IconGithub>
-                  <SocialName>Veja meu Github</SocialName>
+                  <SocialName>Github</SocialName>
                 </SocialMedias>
               </LinkSocialOne>
 
@@ -90,7 +90,7 @@ const ContactSection = () => {
               >
                 <SocialMedias>
                   <IconLinkedin></IconLinkedin>
-                  <SocialName>Veja meu Linkedin</SocialName>
+                  <SocialName>Linkedin</SocialName>
                 </SocialMedias>
               </LinkSocialTwo>
             </SocialContainer>
