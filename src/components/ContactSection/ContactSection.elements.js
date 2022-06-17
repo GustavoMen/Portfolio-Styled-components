@@ -2,7 +2,9 @@ import styled from "styled-components";
 import { BsGithub } from "react-icons/bs";
 import { AiFillLinkedin } from "react-icons/ai";
 
-export const ContactContainer = styled.section`
+export const SectionContact = styled.section``;
+
+export const ContactContainer = styled.div`
   background: #0e0b16;
   display: flex;
   flex-direction: row;
@@ -30,6 +32,7 @@ export const ContactInfo = styled.div`
     width: 100%;
     align-items: center;
     padding: 0;
+    text-align: center;
   }
 `;
 
@@ -97,7 +100,8 @@ export const ContactForm = styled.div`
   width: 50%;
 
   @media screen and (max-width: 960px) {
-    width: 100%;
+    align-self: center;
+    width: 90%;
     padding-left: 0;
   }
 `;

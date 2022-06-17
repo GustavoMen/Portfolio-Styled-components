@@ -5,6 +5,8 @@ import { MdContactMail } from "react-icons/md";
 import { BsShop } from "react-icons/bs";
 import { GiBrain } from "react-icons/gi";
 
+export const SectionProjects = styled.section``;
+
 export const TitleTabs = styled.h1`
   padding-top: 70px;
   text-align: center;

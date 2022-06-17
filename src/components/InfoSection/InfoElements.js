@@ -4,6 +4,7 @@ export const InfoSec = styled.section`
   color: #fff;
   padding: 100px 0;
   background: ${({ lightBg }) => (lightBg ? "#fff" : "#0E0B16")};
+  padding-bottom: 20px;
 `;
 
 export const InfoRow = styled.div`

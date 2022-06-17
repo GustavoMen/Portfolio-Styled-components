@@ -5,6 +5,7 @@ export const SkillsContainer = styled.section`
   text-align: center;
   justify-content: space-between;
   width: 100%;
+  padding-bottom: 20px;
 `;
 
 export const SkillsTitle = styled.h1`
@@ -12,6 +13,10 @@ export const SkillsTitle = styled.h1`
   color: #fff;
   font-size: 40px;
   background: #0e0b16;
+
+  @media screen and (max-width: 960px) {
+    font-size: 32px;
+  }
 `;
 
 export const ContainerLogo = styled.div`
@@ -24,6 +29,13 @@ export const ContainerLogo = styled.div`
   margin-right: 2em;
   border-bottom: 2em solid #57bdd1;
   border-radius: 10px;
+  vertical-align: middle;
+
+  @media screen and (max-width: 960px) {
+    margin-right: 5px;
+    margin-left: 5px;
+    width: 35%;
+  }
 `;
 
 export const LogoImage = styled.img`

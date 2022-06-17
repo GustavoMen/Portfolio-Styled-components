@@ -15,6 +15,7 @@ export const ServicesContainer = styled.section`
   display: flex;
   flex-direction: row;
   text-align: center;
+  padding-top: 20px;
 `;
 
 export const ServicesProvider = styled.div`
