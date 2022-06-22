@@ -9,7 +9,7 @@ export const homeObjOne = {
   headline: "Gustavo Mendonça",
   lightText: true,
   topLine: "Olá mundo, Meu nome é",
-  img: require("../..//Images/MinhaFoto.jpg"),
+  img: require("../..//Images/MinhaFoto.png"),
   alt: "image",
   start: "",
   fristImage: true,
